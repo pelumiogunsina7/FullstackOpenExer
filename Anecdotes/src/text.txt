@@ -1,0 +1,6 @@
+ <p>good:{props.good}</p>
+          <p>Neautral:{props.neautral}</p>
+          <p>Bad:{props.bad}</p>
+          <p>All:{ props.neautral + props.good +props.bad}</p>
+          <p>Average:{ (props.neautral + props.good + props.bad)/3}</p>
+          <p>Positive:{((props.good/(props.neautral + props.good + props.bad))*100)}%</p>
